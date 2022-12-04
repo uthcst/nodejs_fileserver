@@ -1,5 +1,5 @@
 {
-  "name": "nodejs_modules",
+  "name": "nodejs_fileserver",
   "version": "1.0.0",
   "description": "nodejs modules",
   "main": "app.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uthcst/nodejs_modules.git"
+    "url": "git+https://github.com/uthcst/nodejs_fileserver.git"
   },
   "keywords": [
     "nodejs",
@@ -18,7 +18,7 @@
   "author": "uthcst",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/uthcst/nodejs_modules/issues"
+    "url": "https://github.com/uthcst/nodejs_fileserver/issues"
   },
-  "homepage": "https://github.com/uthcst/nodejs_modules#readme"
+  "homepage": "https://github.com/uthcst/nodejs_fileserver#readme"
 }
