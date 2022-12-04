@@ -1,0 +1,24 @@
+{
+  "name": "nodejs_modules",
+  "version": "1.0.0",
+  "description": "nodejs modules",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uthcst/nodejs_modules.git"
+  },
+  "keywords": [
+    "nodejs",
+    "modules"
+  ],
+  "author": "uthcst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uthcst/nodejs_modules/issues"
+  },
+  "homepage": "https://github.com/uthcst/nodejs_modules#readme"
+}
