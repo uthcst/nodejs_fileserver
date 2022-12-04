@@ -6,9 +6,9 @@ http.createServer(function (req, res) {
   let pathname = url.parse(req.url, true).pathname;
   //handle root
   if (pathname==="/") pathname="/index";
-  //adf .html if not specified
+  //add .html if not specified
   if (!pathname.toLowerCase().endsWith(".html")) pathname+=".html";
-  let filename = "./www" + pathname;
+  let filename = __dirname + "/www" + pathname;
   fs.readFile(filename, function (err, data) {
     if (err) {
       res.writeHead(404, { 'Content-Type': 'text/html' });
